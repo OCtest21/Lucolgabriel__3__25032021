@@ -1,6 +1,57 @@
+
+/* Reset */
 @import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
-.header_title {
-  text-align: center;
+
+/* font ROBOTO */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* font ROBOTO BOLD */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+/* font SHRIKHAND */
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+
+
+h1,h2,h3,h4
+{
+  font-family: 'Roboto ', sans-serif;
+  
 }
+
+p, a
+{
+  font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER */
+header
+{
+  text-align: center;
+  background-color: rgb(249, 249, 249);
+}
+
+.header_title 
+{
+  box-shadow: 1px 6px 9px #aaa;
+}
+
+.header_img 
+{
+  scale: 50%;
+}
+
+.header_location
+{
+  text-align: center;
+  background-color: #d2d2d2;
+  padding: 10px;
+}
+
+.search_restaurant
+{
+  padding: 55px;
+}
+
+
 
 /*# sourceMappingURL=style.css.map */
