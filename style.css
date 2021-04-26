@@ -1,57 +1,66 @@
-
-/* Reset */
-@import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
-
 /* font ROBOTO */
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 /* font ROBOTO BOLD */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 /* font SHRIKHAND */
-@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
-
-
-h1,h2,h3,h4
-{
-  font-family: 'Roboto ', sans-serif;
-  
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+p, a, h1, h2, h3, h4 {
+  font-family: "Roboto", sans-serif;
 }
 
-p, a
-{
-  font-family: 'Roboto', sans-serif;
+body {
+  display: contents;
+}
+
+section {
+  margin: 0px 15px;
 }
 
 /* HEADER */
-header
-{
+header {
   text-align: center;
-  background-color: rgb(249, 249, 249);
+  background-color: #f9f9f9;
 }
 
-.header_title 
-{
-  box-shadow: 1px 6px 9px #aaa;
+.header_img {
+  width: 200px;
+  padding: 15px;
 }
 
-.header_img 
-{
-  scale: 50%;
+.header_title {
+  text-align: center;
+  box-shadow: 1px 6px 9px #636363;
 }
 
-.header_location
-{
+.header_location {
   text-align: center;
   background-color: #d2d2d2;
-  padding: 10px;
+  padding: 1px;
+  box-shadow: -2px 19px 21px -8px rgba(0, 0, 0, 0.26) inset;
 }
 
-.search_restaurant
-{
+.search_restaurant {
   padding: 55px;
+  display: flex;
+  flex-direction: column;
 }
 
+.search_restaurant_title {
+  font-weight: bold;
+  font-size: larger;
+}
 
+.search_restaurant_text {
+  font-weight: lighter;
+}
+
+.search_restaurant_link {
+  border-radius: 30px;
+  background-color: violet;
+  padding: 10px;
+  margin: 11px;
+  color: white;
+  font-size: larger;
+}
 
 /*# sourceMappingURL=style.css.map */

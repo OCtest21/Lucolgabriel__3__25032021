@@ -1,12 +1,81 @@
-@import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
 
-.header_title
+/* font ROBOTO */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* font ROBOTO BOLD */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+/* font SHRIKHAND */
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+
+
+p,a,h1,h2,h3,h4
 {
-    text-align: center;
-    box-shadow: 1px 6px 9px #aaa;
+  font-family: 'Roboto', sans-serif;
+}
+
+body
+{
+  display: contents
+}
+
+section
+{
+  margin: 0px 15px;
+}
+
+/* HEADER */
+header
+{
+  text-align: center;
+  background-color: rgb(249, 249, 249);
 }
 
 .header_img
 {
-    scale: 50%;
+    width: 200px;
+    padding: 15px;
+}
+
+.header_title
+{
+  text-align: center;
+  box-shadow: 1px 6px 9px rgb(99, 99, 99);
+}
+
+.header_location
+{
+  text-align: center;
+  background-color: #d2d2d2;
+  padding: 1px;
+  box-shadow: -2px 19px 21px -8px rgba(0, 0, 0, 0.26) inset;
+}
+
+.search_restaurant 
+{
+  padding: 55px;
+  display: flex;
+  flex-direction: column;
+}
+
+.search_restaurant_title
+{
+  font-weight: bold;
+  font-size: larger;
+}
+
+.search_restaurant_text
+{
+  font-weight: lighter;
+}
+
+
+.search_restaurant_link
+{
+  border-radius: 30px;
+  background-color: violet;
+  padding: 10px;
+  margin: 11px;
+  color: white;
+  font-size: larger;
 }
