@@ -1,10 +1,11 @@
+@charset "UTF-8";
 /* font ROBOTO */
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 /* font ROBOTO BOLD */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 /* font SHRIKHAND */
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
-p, a, h1, h2, h3, h4 {
+p, a, h1, h2, h3, h4, h5 {
   font-family: "Roboto", sans-serif;
   margin: 0;
   text-decoration: none;
@@ -22,7 +23,20 @@ section {
 /* HEADER */
 header {
   text-align: center;
+}
+
+.header_back-home {
+  left: 15px;
+  position: absolute;
+  top: 30px;
+}
+
+.header_title {
   background-color: #f9f9f9;
+  align-items: center;
+  display: flex;
+  height: 70px;
+  justify-content: center;
 }
 
 .header_img {
@@ -47,6 +61,13 @@ header {
 
 .header_location i {
   margin-right: 5px;
+}
+
+.banniere-img {
+  margin-bottom: -30px;
+  max-height: 300px;
+  object-fit: cover;
+  width: 100%;
 }
 
 .search_restaurant {
@@ -74,6 +95,7 @@ header {
   font-size: larger;
 }
 
+/* FONCTIONNALITÉ */
 .fontionnement_card {
   display: flex;
   align-items: center;
@@ -110,6 +132,7 @@ header {
   padding-left: 10px;
 }
 
+/* RESTAURANT */
 .restaurant__card {
   background-color: white;
   border-radius: 15px;
@@ -138,6 +161,7 @@ header {
   width: 150px;
 }
 
+/* FOOTER */
 footer {
   background-color: #363636;
   color: #F6F6F6 !important;
@@ -159,6 +183,67 @@ footer ul a {
 footer ul {
   list-style: none;
   padding-left: 15px;
+}
+
+/* MAIN CARD */
+.main-card {
+  background-color: #F6F6F6;
+  border-radius: 30px 30px 0 0;
+  position: relative;
+  margin: 0;
+}
+
+.main-card__heading {
+  align-items: center;
+  display: flex;
+  font-weight: normal;
+  justify-content: space-between;
+  padding: 20px 20px;
+}
+
+.main-card__heading h2 {
+  font-family: "Shrikhand", cursive;
+}
+
+.menus {
+  max-width: 100%;
+  overflow: hidden;
+  padding: 0px 20px;
+}
+
+.menus__title {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  padding-bottom: 6px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.menu-content {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.02);
+  display: flex;
+  margin: 20px 0px;
+  overflow: hidden;
+  padding: 10px;
+  max-width: 100%;
+}
+
+.menu-content__price {
+  align-items: flex-end;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  justify-content: flex-end;
+  padding-left: 20px;
+}
+
+.menu-content__header {
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 /*# sourceMappingURL=style.css.map */
