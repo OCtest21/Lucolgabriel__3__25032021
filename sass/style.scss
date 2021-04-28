@@ -12,6 +12,9 @@
 p,a,h1,h2,h3,h4
 {
   font-family: 'Roboto', sans-serif;
+  margin: 0;
+  text-decoration: none;
+  color: initial;
 }
 
 body
@@ -45,11 +48,20 @@ header
 
 .header_location
 {
+  display: flex;
   text-align: center;
   background-color: #d2d2d2;
   padding: 1px;
   box-shadow: -2px 19px 21px -8px rgba(0, 0, 0, 0.26) inset;
+  justify-content: center;
+  padding: 10px;
 }
+
+.header_location i
+{
+  margin-right: 5px;
+}
+
 
 .search_restaurant 
 {
@@ -61,12 +73,13 @@ header
 .search_restaurant_title
 {
   font-weight: bold;
-  font-size: larger;
+  font-size: medium;
 }
 
-.search_restaurant_text
+.search_restaurant_text h3
 {
   font-weight: lighter;
+  margin: 10px;
 }
 
 .search_restaurant_link
@@ -82,15 +95,21 @@ header
 .fontionnement_card
 {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
   align-items: center;
-  height: 70px;
   background-color: #F6F6F6;
   border-radius: 25px;
   box-shadow: 0px 2px 19px -2px rgb(0 0 0 / 17%);
   font-family: "Roboto", sans-serif;
   margin: 20px 20px;
+}
+
+.fontionnement_card_content
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 70px;
 }
 
 .circle
@@ -101,4 +120,76 @@ header
   font-size: 15px;
   margin: 0px 0px 0px -10px;
   padding: 5px 8px;
+}
+
+.card_content_icon
+{
+  padding-left: 10px;
+  color: #9356DC;
+}
+
+.fontionnement_card_content p
+{
+  padding-left: 10px;
+}
+
+.restaurant__card
+{
+  background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 26px 58px -22px rgb(0 0 0 / 48%);
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.restaurant__card-img
+{
+  width: 100%;
+    object-fit: cover;
+    height: 160px;
+}
+
+.restaurant__card-content
+{
+  align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.restaurant__card-content-text
+{
+  flex: 1;
+    margin: 5px 0px 10px;
+    width: 150px;
+}
+
+footer
+{
+  background-color: #363636;
+  color: #F6F6F6 !important;
+  padding: 8px 0px 20px 10px;
+}
+
+footer h2
+{
+  font-family: 'Shrikhand', cursive;
+  font-weight: normal;
+  color: white;
+  padding-left: 15px;
+
+}
+
+footer ul a
+{
+  padding: 10px 0px;
+  color: white;
+}
+
+footer ul
+{
+  list-style: none;
+  padding-left: 15px;
+
 }
