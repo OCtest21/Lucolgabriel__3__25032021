@@ -27,6 +27,28 @@ section
   margin: 0px 15px;
 }
 
+/* LOADER */
+
+.loader
+{
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.loader_gif
+{
+  position: absolute;
+  top: 43%;
+  left: 33%;
+  display: flex;
+  justify-content: center;
+}
+
 /* HEADER */
 
 header
@@ -84,6 +106,19 @@ header
   max-height: 300px;
   object-fit: cover;
   width: 100%;
+}
+
+
+
+.restaurant__card-label restaurant__card-label--new p
+{
+  position: absolute;
+  background-color: #0dcc0d;
+  padding: 10px;
+  border-radius: 15px;
+  right: 10px;
+  top: 9px;
+  color: white;
 }
 
 .search_restaurant 
@@ -294,3 +329,7 @@ footer ul
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+
+/* 
+ overflow : hidden
+ position bloc invisible sur meme ligne */
