@@ -28,10 +28,19 @@ section {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 1;
+  z-index: 1000;
 }
 
-.loader_gif {
+.loader-gif {
+  background: url(https://media.giphy.com/media/sSgvbe1m3n93G/giphy.gif) 50% 50% no-repeat;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+/*
+.loader_gif
+{
   position: absolute;
   top: 43%;
   left: 33%;
@@ -39,6 +48,7 @@ section {
   justify-content: center;
 }
 
+*/
 /* HEADER */
 header {
   text-align: center;
@@ -89,7 +99,7 @@ header {
   width: 100%;
 }
 
-.restaurant__card-label restaurant__card-label--new p {
+.restaurant__card-label--new p {
   position: absolute;
   background-color: #0dcc0d;
   padding: 10px;
@@ -122,6 +132,8 @@ header {
   margin: 11px;
   color: white;
   font-size: larger;
+  background: #9f52fb;
+  background: linear-gradient(0deg, #9f52fb 0%, #db82ff 91%);
 }
 
 /* FONCTIONNALITÉ */
@@ -214,6 +226,7 @@ footer ul {
   padding-left: 15px;
 }
 
+/* PAGE MENU */
 /* MAIN CARD */
 .main-card {
   background-color: #F6F6F6;
@@ -273,6 +286,24 @@ footer ul {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+.order-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.order-button p {
+  border-radius: 30px;
+  box-shadow: -1px 3px 25px -10px rgba(0, 0, 0, 0.65);
+  color: white;
+  padding: 15px 40px;
+  background: #9f52fb;
+  background: linear-gradient(0deg, #9f52fb 0%, #db82ff 91%);
+  text-align: center;
+  width: fit-content;
 }
 
 /* 
