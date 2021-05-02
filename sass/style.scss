@@ -38,6 +38,9 @@ section
   top: 0;
   left: 0;
   z-index: 1000;
+  animation: loader 0.01s;
+  animation-delay: 1.10s;
+  animation-fill-mode: both;
 }
 
 
@@ -173,7 +176,7 @@ header
   }
 }
 
-.restaurant__card-heart
+.fa-heart
 {
   color: grey;
   transform: scale(1);
@@ -418,6 +421,16 @@ footer ul
   margin-right: -10px;
 }
 
+/* KEYFRAME */
+
+@keyframes loader 
+{
+  100% 
+  {
+    opacity: 0;
+    z-index: -10;
+  }
+}
 /* 
  overflow : hidden
  position bloc invisible sur meme ligne */
