@@ -120,8 +120,6 @@ header
   width: 100%;
 }
 
-
-
 .restaurant__card-label--new p
 {
   position: absolute;
@@ -152,16 +150,38 @@ header
   margin: 10px;
 }
 
-.search_restaurant_link
+.btn
 {
   border-radius: 30px;
   background-color: violet;
-  padding: 10px;
+  padding: 15px 40px;
   margin: 11px;
   color: white;
   font-size: larger;
-  background: rgb(159,82,251);
+  box-shadow: -1px 3px 25px -10px rgb(0 0 0 / 65%);
   background: linear-gradient(0deg, rgba(159,82,251,1) 0%, rgba(219,130,255,1) 91%);
+  &:hover
+  {
+    box-shadow: 0px 6px 6px -1px #b1afaf;
+    transition: 150ms;
+  }
+
+  .btn-order
+  {
+    text-align: center;
+    width: fit-content;
+  }
+}
+
+.restaurant__card-heart
+{
+  color: grey;
+  transform: scale(1);
+  transition: transform 350ms;
+  &:hover {
+    transform: scale(1.5);
+    color: rgb(159,82,251);;
+  }
 }
 
 /* FONCTIONNALITÉ */
@@ -210,14 +230,15 @@ header
 
 /* RESTAURANT */
 
+
 .restaurant__card
 {
   background-color: white;
-    border-radius: 15px;
-    box-shadow: 0px 26px 58px -22px rgb(0 0 0 / 48%);
-    margin: 10px;
-    overflow: hidden;
-    position: relative;
+  border-radius: 15px;
+  box-shadow: 0px 26px 58px -22px rgb(0 0 0 / 48%);
+  margin: 10px;
+  overflow: hidden;
+  position: relative;
 }
 
 .restaurant__card-img
@@ -326,6 +347,7 @@ footer ul
   overflow: hidden;
   padding: 10px;
   max-width: 100%;
+  cursor: pointer;
 }
 
 .menu-content__price
@@ -355,17 +377,7 @@ footer ul
   margin: 20px;
 }
 
-.order-button p
-{
-  border-radius: 30px;
-  box-shadow: -1px 3px 25px -10px rgb(0 0 0 / 65%);
-  color: white;
-  padding: 15px 40px;
-  background: rgb(159,82,251);
-  background: linear-gradient(0deg, rgba(159,82,251,1) 0%, rgba(219,130,255,1) 91%);
-  text-align: center;
-  width: fit-content;
-}
+
 
 
 /* 
