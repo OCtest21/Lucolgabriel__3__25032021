@@ -29,7 +29,7 @@ section {
   top: 0;
   left: 0;
   z-index: 1000;
-  animation: loader 0.01s;
+  animation: loader 0.05s;
   animation-delay: 1.1s;
   animation-fill-mode: both;
 }
@@ -280,6 +280,16 @@ footer ul {
   padding-bottom: 6px;
   position: relative;
   text-transform: uppercase;
+}
+
+.menus__title::after {
+  background-color: #99E2D0;
+  bottom: 0;
+  content: "";
+  height: 4px;
+  left: 0;
+  position: absolute;
+  width: 30px;
 }
 
 .menu-content {
