@@ -377,8 +377,46 @@ footer ul
   margin: 20px;
 }
 
+/* ANIMATION MENU */
 
+.menu-content__icon 
+{
+  color: #99E2D0;
+}
 
+.menu-content__check-icon
+{
+  align-items: center;
+    background-color: white;
+    border-radius: 100px;
+    color: #99E2D0;
+    display: flex;
+    height: 25px;
+    justify-content: center;
+    transform: rotate(180deg);
+    transition-duration: .8s;
+    width: 25px;
+}
+
+.menu-content:hover .menu-content__check-icon 
+{
+  transform: rotate(0);
+}
+
+.menu-content__confirmation
+{
+  align-items: center;
+    background-color: #99E2D0;
+    display: flex;
+    justify-content: center;
+    margin: -16px -120px -16px 16px;
+    transition-duration: .5s;
+    width: 104px;
+}
+
+.menu-content:hover .menu-content__confirmation {
+  margin-right: -10px;
+}
 
 /* 
  overflow : hidden
