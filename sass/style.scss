@@ -360,6 +360,10 @@ footer ul
   padding: 10px;
   max-width: 100%;
   cursor: pointer;
+  animation: apparition .75s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  transform: scale(0);
 }
 
 .menu-content__price
@@ -452,6 +456,17 @@ footer ul
     transform: scale(1);
   }
 }
-/* 
- overflow : hidden
- position bloc invisible sur meme ligne */
+
+@keyframes apparition {
+  0% {
+    transform: scale(0);
+    opacity: 0%;
+  }
+  50% {
+    opacity: 0%;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 100%;
+  }
+  }
