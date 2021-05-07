@@ -157,6 +157,7 @@ header
   {
     box-shadow: 0px 6px 6px -1px #b1afaf;
     transition: 150ms;
+    background: linear-gradient(183deg, #9f52fb 0%, #db82ff 91%);
   }
 
   .btn-order
@@ -459,4 +460,46 @@ footer ul
     transform: scale(1);
     opacity: 100%;
   }
+  }
+
+  /* DELAY */
+
+  .delay-1 {
+    animation-delay: .1s;
+  }
+  
+  .delay-2 {
+    animation-delay: .2s;
+  }
+  
+  .delay-3 {
+    animation-delay: .3s;
+  }
+  
+  .delay-4 {
+    animation-delay: .4s;
+  }
+  
+  .delay-5 {
+    animation-delay: .5s;
+  }
+  
+  .delay-6 {
+    animation-delay: .6s;
+  }
+  
+  .delay-7 {
+    animation-delay: .7s;
+  }
+  
+  .delay-8 {
+    animation-delay: .8s;
+  }
+  
+  .delay-9 {
+    animation-delay: .9s;
+  }
+  
+  .delay-10 {
+    animation-delay: .10s;
   }
