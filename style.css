@@ -41,17 +41,6 @@ section {
   position: absolute;
 }
 
-/*
-.loader_gif
-{
-  position: absolute;
-  top: 43%;
-  left: 33%;
-  display: flex;
-  justify-content: center;
-}
-
-*/
 /* HEADER */
 header {
   text-align: center;
