@@ -10,6 +10,8 @@ p, a, h1, h2, h3, h4, h5 {
   margin: 0;
   text-decoration: none;
   color: initial;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 body {
@@ -172,7 +174,7 @@ header {
   color: white;
   font-size: 15px;
   margin: 0px 0px 0px -10px;
-  padding: 5px 8px;
+  padding: 4px 9px;
 }
 
 .card_content_icon {
