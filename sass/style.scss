@@ -586,6 +586,12 @@ footer ul
 
 @media ( min-width: 1200px) 
 {
+
+  .restaurant__card
+  {
+    max-width: 700px;
+  }
+
   .main-card-menu
   {
     display: flex;
