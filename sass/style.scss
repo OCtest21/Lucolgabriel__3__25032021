@@ -117,12 +117,11 @@ header
 .restaurant__card-label--new p
 {
   position: absolute;
-  background-color: #0dcc0d;
   padding: 10px;
-  border-radius: 15px;
   right: 10px;
   top: 9px;
-  color: white;
+  color: #1b6150;
+  background-color: #99e2d0;
 }
 
 .search_restaurant 
@@ -168,14 +167,34 @@ header
   }
 }
 
-.fa-heart
+.heart
 {
-  color: grey;
-  transform: scale(1);
-  transition: transform 350ms;
-  &:hover {
-    animation: Heartbeat .4s;
-    color: rgb(159,82,251);;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.heart_icon_1
+{
+  color: black;
+  font-size: 28px;
+  &:hover
+  {
+    opacity: 0%;
+  }
+}
+
+.heart_icon_2
+{
+  opacity: 0%;
+  color: #9f52fb;
+  position: absolute;
+  font-size: 30px;
+  animation: Heartshade .8s;
+  transition: .2s;
+  &:hover
+  {
+    opacity: 100%;
   }
 }
 
@@ -199,6 +218,11 @@ header
   justify-content: flex-start;
   align-items: center;
   height: 70px;
+}
+
+.fontionnement_card:hover 
+{
+  background-color: #e4d5f6;
 }
 
 .circle
@@ -437,17 +461,17 @@ footer ul
   }
 }
 
-@keyframes Heartbeat {
+
+@keyframes Heartshade {
   0% {
-    transform: scale(1);
+    opacity: 0%;
   }
-  40% {
-    transform: scale(1.3);
-  }
+
   100% {
-    transform: scale(1);
+    opacity: 100%;
   }
 }
+
 
 @keyframes apparition {
   0% {
@@ -461,6 +485,16 @@ footer ul
     transform: scale(1);
     opacity: 100%;
   }
+  }
+
+  @keyframes heartshade {
+    0% {
+    opacity: 100%;
+    }
+  
+    100% {
+    opacity: 0%;
+    }
   }
 
   /* DELAY */
