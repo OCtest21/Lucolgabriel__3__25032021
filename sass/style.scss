@@ -553,7 +553,13 @@ footer ul
   body
   {
     width: 1280px;
-    
+    margin: auto;
+  }
+
+  .fontionnement_card
+  {
+    width: -webkit-fill-available;
+    justify-content: center;
   }
 
   .fonctionnement_card_section
@@ -572,7 +578,7 @@ footer ul
 
   .restaurant__card
   {
-    max-width: 349px;
+    max-width: 334px;
   }
 
   .main-card
@@ -587,6 +593,12 @@ footer ul
 @media ( min-width: 1200px) 
 {
 
+  .section-responsive
+  {
+  width: 1280px;
+  margin: auto;
+  }
+  
   .restaurant__card
   {
     max-width: 565px;
