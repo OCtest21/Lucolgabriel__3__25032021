@@ -553,19 +553,19 @@ footer a
     margin: auto;
   }
 
-  .fontionnement_card
+  .fontionnement__card
   {
     width: -webkit-fill-available;
     justify-content: center;
     
-    .fonctionnement_card_section
-    {
-      display: flex;
-      justify-content: space-around;
-    }
+    
   }
 
-  
+  .fonctionnement__card__list
+  {
+    display: flex;
+    justify-content: space-around;
+  }
 
   .card-list
   {

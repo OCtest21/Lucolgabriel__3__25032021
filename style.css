@@ -448,11 +448,12 @@ footer a {
     margin: auto;
   }
 
-  .fontionnement_card {
+  .fontionnement__card {
     width: -webkit-fill-available;
     justify-content: center;
   }
-  .fontionnement_card .fonctionnement_card_section {
+
+  .fonctionnement__card__list {
     display: flex;
     justify-content: space-around;
   }
