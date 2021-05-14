@@ -74,6 +74,10 @@ header {
 .header__localisation .header__localisation__icon {
   margin-right: 5px;
 }
+.header__localisation .header__localisation__text {
+  border: hidden;
+  background: transparent;
+}
 
 .header__title {
   padding: 55px;
