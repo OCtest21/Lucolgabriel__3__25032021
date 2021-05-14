@@ -146,7 +146,7 @@ header {
   animation: Heartshade 0.9s;
   transition: 0.2s;
   color: #9f52fb;
-  background: -webkit-gradient(linear, left top, left bottom, from(#df4fff), to(#8f45ff));
+  background: -webkit-gradient(linear, left top, left bottom, from(#eb91ff), to(#7e28ff));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
